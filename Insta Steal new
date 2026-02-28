@@ -137,7 +137,7 @@ local subtitle = Instance.new("TextLabel")
 subtitle.Size = UDim2.new(1, 0, 0, 12)
 subtitle.Position = UDim2.new(0, 0, 0, 29)
 subtitle.BackgroundTransparency = 1
-subtitle.Text = "made by Krimo hub"
+subtitle.Text = "made by MOMO.1711"
 subtitle.TextColor3 = Color3.fromRGB(0, 170, 255)
 subtitle.TextSize = 8
 subtitle.Font = Enum.Font.GothamMedium
@@ -628,4 +628,5 @@ dropdownOpen = not dropdownOpen
 local targetSize = dropdownOpen and UDim2.new(0.9, 0, 0, 81) or UDim2.new(0.9, 0, 0, 23)
 dropdownButton.Text = dropdownOpen and "TP TO SPOT ▲" or "TP TO SPOT ▼"
 TweenService:Create(dropdownContainer, TweenInfo.new(0.2), {Size = targetSize}):Play()
+
 end)
